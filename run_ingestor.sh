@@ -4,7 +4,7 @@ set -euo pipefail
 # TickStreamIngestor - Cron-compatible startup script
 # Starts the ingestor in a new terminal with proper environment isolation
 
-REPO_DIR="/home/quantlinux/Documents/TickStreamIngestor_mcx"
+REPO_DIR="/home/algolinux/Documents/aviral/Github/TickStreamIngestor_MCX"
 LOG_DIR="$REPO_DIR/logs"
 PID_FILE="$REPO_DIR/ingestor.pid"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
